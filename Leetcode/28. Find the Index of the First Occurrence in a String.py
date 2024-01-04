@@ -32,3 +32,5 @@ def strStr(haystack: str, needle: str) -> int:
 
 
 print(strStr("hello", "ll"))
+
+#  output: 2
