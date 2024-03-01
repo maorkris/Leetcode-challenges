@@ -2,6 +2,8 @@
 # Output: [0,1]
 # Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
+
+
 #           solution 1
 def twoSum(nums,target):
     for index1 in range(len(nums)):
