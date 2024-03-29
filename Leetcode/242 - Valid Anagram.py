@@ -2,6 +2,8 @@
 # source: https://leetcode.com/problems/valid-anagram/
 # 242. Valid Anagram
 # solution 1
+
+
 """ Given two strings s and t , write a function to determine if t is an anagram of s.
     Example 1:
     Input: s = "anagram", t = "nagaram"
@@ -34,6 +36,10 @@ def Valid_Anagram2(s,t):
             tdict[j] += 1
 
     return sdict == tdict
+
+
+
+
 if __name__ == '__main__':
     print(Valid_Anagram("anagram", "nagaram")) # True
     print(Valid_Anagram("rat", "car")) # False
