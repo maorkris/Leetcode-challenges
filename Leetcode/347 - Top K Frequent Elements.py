@@ -7,6 +7,7 @@ def Top_K_Frequent_Elements(nums):
         else:
             dict[i] = 1
 
+
     bigger = None
     second = None
     for key in dict:
@@ -25,5 +26,7 @@ def Top_K_Frequent_Elements(nums):
     else:
         return [bigger]
 
-print(Top_K_Frequent_Elements([4,1,-1,2,-1,2,3])) # [2,-1]
+print(Top_K_Frequent_Elements([4,1,-1,2,-1,2,3]))
+# output: [2, -1]
+
 
