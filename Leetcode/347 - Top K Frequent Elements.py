@@ -7,7 +7,6 @@ def Top_K_Frequent_Elements(nums):
         else:
             dict[i] = 1
 
-
     bigger = None
     second = None
     for key in dict:
