@@ -31,4 +31,4 @@ end_time = timeit.default_timer()
 print(f"Time for singleNumber: {end_time - start_time}")
 
 
-print(1 ^2 )
+print(3 ^10 )
