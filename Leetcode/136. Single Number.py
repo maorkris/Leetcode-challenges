@@ -18,7 +18,7 @@ def singleNumber2(arr):
         result ^= n
     return result
 
-arr = [3,1,2,1,2] # Increase the size of the array to see a more noticeable difference in time
+arr = [3,1,2,1,2]
 
 start_time = timeit.default_timer()
 print(singelNumber(arr))
@@ -31,4 +31,19 @@ end_time = timeit.default_timer()
 print(f"Time for singleNumber: {end_time - start_time}")
 
 
-print(3 ^10 )
+#  פונקציות המרה לבינארי ודצימלי כעזר למעקב אחר הקוד ישנה הדפסה מעוצבת לחזות ויזואלית של הפעולה
+
+def print_matrix(num1, num2):
+    bin1 = format(num1, '04b')
+    bin2 = format(num2, '04b')
+    xor_result = num1 ^ num2
+    bin_xor = format(xor_result, '04b')
+
+    print(f"{bin1:<10}")
+    print(f"{'----':<10}")
+    print(f"{bin2:<10}")
+    print(f"{'XOR in binary:':<15}{bin_xor:<10}")
+    print(f"{'XOR in decimal:':<15}{xor_result:<10}")
+
+print_matrix(3, 2)
+
