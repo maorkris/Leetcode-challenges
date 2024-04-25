@@ -18,7 +18,7 @@ def singleNumber2(arr):
         result ^= n
     return result
 
-arr = [3,1,2,1,2]
+arr = [7,1,2,1,2]
 
 start_time = timeit.default_timer()
 print(singelNumber(arr))
@@ -26,7 +26,7 @@ end_time = timeit.default_timer()
 print(f"Time for singelNumber: {end_time - start_time}")
 
 start_time = timeit.default_timer()
-singleNumber2(arr)
+print(singleNumber2(arr))
 end_time = timeit.default_timer()
 print(f"Time for singleNumber: {end_time - start_time}")
 
@@ -45,5 +45,5 @@ def print_matrix(num1, num2):
     print(f"{'XOR in binary:':<15}{bin_xor:<10}")
     print(f"{'XOR in decimal:':<15}{xor_result:<10}")
 
-print_matrix(3, 2)
+print_matrix(1, 2)
 
