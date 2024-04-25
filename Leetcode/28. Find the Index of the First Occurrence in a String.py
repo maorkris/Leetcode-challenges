@@ -31,6 +31,4 @@ def strStr(haystack: str, needle: str) -> int:
             con += 1
 
 
-print(strStr("hello", "ll"))
-
-#  output: 2
+print(strStr("hello", "he"))
